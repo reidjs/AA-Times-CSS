@@ -7,25 +7,29 @@ html {
 
 body {
 	// ...
+	width: 80%;
+	margin: 0 auto;
+	font-family: $serif;
+	font-size: 12px;
 }
 
 button {
-	// background-color:
-	// border-color:
-	// color:
-	// font-weight:
-	// padding:
-	// border-radius:
+	background-color: $blue;
+	border-color: $blue;
+	color: white;
+	font-weight: 700;
+	padding: 5px;
+	border-radius: 3px;
 	// transition:
-	// font-family:
-	// text-transform:
+	font-family: $sans-serif;
+	text-transform: capitalize;
 	// font-size:
-	// text-align:
+	text-align: center;
 }
 
 button:hover {
-	// background-color:
-	// border-color:
+	background-color: $dark-blue;
+	border-color: $darkest-blue;
 }
 
 /*
@@ -46,4 +50,8 @@ hr {
 .hr-top {
 	height: 2px;
 	margin-bottom: 1px;
+}
+
+a:hover {
+	text-decoration: underline;
 }
