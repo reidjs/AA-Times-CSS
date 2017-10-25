@@ -15,7 +15,12 @@
 		<ul>
 			<li><button type="button" name="button">SUBSCRIBE NOW</button></li>
 			<li><button type="button" name="button">LOG IN</button></li>
-			<li id="sections-navbar-btn"><i class="fa fa-cog"></i></li>
+			<li id="gear-dropdown-btn"><i class="fa fa-cog"></i>
+				<div id="gear-dropdown">
+					<%= render partial: 'shared/gear_dropdown' %>
+				</div>
+			</li>
+
 		</ul>
 	</nav>
 </header>
