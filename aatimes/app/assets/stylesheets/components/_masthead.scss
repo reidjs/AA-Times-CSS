@@ -72,3 +72,20 @@
 .masthead-links strong {
 	color: green;
 }
+
+@media all and (max-width: 1000px) {
+
+  .language-nav {
+    display: none;
+  }
+	.right-nav > ul > li > button {
+		display: none;
+	}
+	.left-nav {
+		margin: 0;
+	}
+	.main-nav {
+		margin: 0;
+	}
+
+}

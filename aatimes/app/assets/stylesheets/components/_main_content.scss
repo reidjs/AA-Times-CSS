@@ -1,0 +1,62 @@
+section {
+  font-size: 12px;
+  font-family: $sans-serif;
+  margin-right: 20px;
+}
+// section:last-child {
+//   margin-right: 0;
+// }
+section header {
+  font-size: 14px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+author {
+  color: $gray;
+  display: block;
+}
+
+section ul {
+  // font-weight: 700;
+  margin-top: 5px;
+  padding-left: 10px;
+}
+section li {
+  list-style: disc;
+  list-style-position: inside;
+  margin-bottom: 5px;
+}
+
+section header:hover {
+  text-decoration: underline;
+}
+
+.opinion li {
+  font-weight: 700;
+}
+
+comments {
+  color: $blue;
+}
+comments:hover {
+  text-decoration: underline;
+}
+
+center {
+  font-weight: 700;
+}
+input {
+  // display: flex;
+  flex: 1;
+  border: 1px solid $gray;
+}
+button {
+  // flex: 1;
+}

@@ -7,10 +7,21 @@
   display: flex;
 }
 
+.mini-flex-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .col {
   flex: 1;
 }
-
+.col-1-5 {
+  flex: 1;
+}
+.col-2-5 {
+  flex: 2;
+}
 /* Attribute selector targeting all elements
 with a class attribute containing 'col-' */
 [class*='col-'] {

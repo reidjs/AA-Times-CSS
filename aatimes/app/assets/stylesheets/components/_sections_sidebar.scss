@@ -1,0 +1,24 @@
+#sections-sidebar {
+  position: absolute;
+  right: 50px;
+  background: white;
+}
+div#sections-sidebar > ul > li{
+  opacity: 0;
+
+  // position: relative;
+  // display: none;
+  // position: float;
+}
+// #sections-sidebar ul li .expand {
+//   opacity: 1;
+//   display: block;
+// }
+
+div#sections-sidebar.expand > ul > li {
+  opacity: 1;
+  // position: absolute;
+  color: black;
+  z-index: 1;
+  right: 50px;
+}

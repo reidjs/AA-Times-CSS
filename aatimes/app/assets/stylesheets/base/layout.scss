@@ -35,7 +35,11 @@ button:hover {
 /*
 	Header Rules
 */
-
+.thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 hr {
 	border: 0;
 	height: 1px;
